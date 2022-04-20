@@ -1,1 +1,1 @@
-# NODE JS AUTH WITH JSONWEBTOKEN AND MONGODB Example
+# NodeJS MongoDB Auth JWT Example
