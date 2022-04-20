@@ -16,7 +16,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());
 
-app.use('/auth', require('./routes/user.js'));
+// Routes
+app.use('/', require('./routes/user.js'));
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
